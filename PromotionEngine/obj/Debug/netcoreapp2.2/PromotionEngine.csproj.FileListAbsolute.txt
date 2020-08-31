@@ -1,0 +1,11 @@
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp2.2\PromotionEngine.deps.json
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp2.2\PromotionEngine.runtimeconfig.json
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp2.2\PromotionEngine.runtimeconfig.dev.json
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp2.2\PromotionEngine.dll
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp2.2\PromotionEngine.pdb
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.csprojAssemblyReference.cache
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.csproj.CoreCompileInputs.cache
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.AssemblyInfoInputs.cache
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.AssemblyInfo.cs
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.dll
+D:\dummy_projects\PromotionEngine\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp2.2\PromotionEngine.pdb
