@@ -19,7 +19,9 @@ namespace PromotionEngine
                 product = product.GetProductDetails(type);
                 products.Add(product);
             }
-
+            
+            int totalPrice = Product.GetTotalPrice(products);
+            Console.WriteLine(totalPrice);
             Console.ReadLine();
         }
     }
