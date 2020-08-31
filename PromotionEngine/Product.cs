@@ -14,6 +14,11 @@ namespace PromotionEngine
         {
         }
 
+        /// <summary>
+        /// To get details of indiviual product 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public Product GetProductDetails(string id)
         {
             Product product = new Product();
@@ -32,24 +37,33 @@ namespace PromotionEngine
             return product;
         }
 
+        /// <summary>
+        /// get Id of the product from input
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public string GetProductID(string id)
         {
-            char[] spearator = { '*', ' ' };
-            String[] strlist = id.Split(spearator);
-            string Id = strlist[1];
-
+            string Id = id.Substring(id.Length - 1);
             return Id;
         }
 
+        /// <summary>
+        /// get value of the product for specific id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public int GetProductValue(string id)
         {
-            char[] spearator = { '*', ' ' };
-            String[] strlist = id.Split(spearator);
-            int Value = Convert.ToInt32(strlist[0]);
-
+            int Value = Convert.ToInt32(id.Substring(0,1));
             return Value;
         }
 
+        /// <summary>
+        /// Get Total price for the products
+        /// </summary>
+        /// <param name="products"></param>
+        /// <returns></returns>
         public static int GetTotalPrice(List<Product> products)
         {
             int counterofA = 0;
@@ -61,7 +75,6 @@ namespace PromotionEngine
             int CounterofD = 0;
             int priceofD = 15;
 
-            //Condition to Get third senario 
             if (products.Count == 4)
             {
                 priceofC = 0;
@@ -92,7 +105,6 @@ namespace PromotionEngine
             int totalPriceofC = (CounterofC * priceofC);
             int totalPriceofD = (CounterofD * priceofD);
             return totalPriceofA + totalPriceofB + totalPriceofC + totalPriceofD;
-
         }
     }
 }
