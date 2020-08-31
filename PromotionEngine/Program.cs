@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 
 namespace PromotionEngine
 {
@@ -14,8 +15,9 @@ namespace PromotionEngine
             {
                 Console.WriteLine("enter the type of product:A,B,C or D");
                 string type = Console.ReadLine();
-                Product p = new Product();
-                products.Add(p);
+                Product product = new Product();
+                product = product.GetProductDetails(type);
+                products.Add(product);
             }
 
             Console.ReadLine();
