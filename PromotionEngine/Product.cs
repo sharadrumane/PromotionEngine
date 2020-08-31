@@ -61,6 +61,7 @@ namespace PromotionEngine
             int CounterofD = 0;
             int priceofD = 15;
 
+            //Condition to Get third senario 
             if (products.Count == 4)
             {
                 priceofC = 0;
