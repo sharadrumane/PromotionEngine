@@ -75,6 +75,7 @@ namespace PromotionEngine
             int CounterofD = 0;
             int priceofD = 15;
 
+            //condition to make price Value 0 when product count is 4
             if (products.Count == 4)
             {
                 priceofC = 0;
